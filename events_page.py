@@ -20,10 +20,14 @@ def events_page():
 
             # Optional: Save & Add to Calendar
             st.button("❤️ Save", key=event["name"])
-            cal_url = ("https://calendar.google.com/calendar/render?action=TEMPLATE"
-    f"&text={urllib.parse.quote(event['name'])}"
-    f"&details={urllib.parse.quote(event['description'])}"
-    f"&location={urllib.parse.quote(event['location'])}")
+            for i, event in enumerate(events):
+            st.subheader(event["name"])
+            st.write(event["description"])
 
-            if st.button("📅 Add to Calendar"):
-                webbrowser.open_new_tab(cal_url)
+            event_url = (f"https://calendar.google.com/calendar/render?action=TEMPLATE"
+        f"&text={event['name'].replace(' ', '+')}"
+        f"&details={event['description'].replace(' ', '+')}"
+        f"&location={event['location'].replace(' ', '+')}")
+
+            if st.button(f"📅 Add to Calendar", key=i):
+                webbrowser.open_new_tab(event_url)
