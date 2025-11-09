@@ -25,6 +25,142 @@
         "date": "2025-11-8",
         "time": "12:00 AM",
         "description": "have fun hacking."
+    },
+
+    {
+      "name": "Cultural Fusion Night",
+      "host": "International Student Association",
+      "location": "Main Auditorium",
+      "date": "2025-11-15",
+      "time": "7:00 PM",
+      "description": "Celebrate diversity through music, food, and art from around the world.",
+      "tags": ["Arts & Culture", "Social", "Large", "Evening"]
+    },
+    {
+      "name": "Photography Walk: Capturing Campus Life",
+      "host": "Art Club",
+      "location": "Campus Quad",
+      "date": "2025-11-16",
+      "time": "10:00 AM",
+      "description": "Join fellow creatives for a guided photo walk around campus landmarks.",
+      "tags": ["Arts & Culture", "Workshop", "Small", "Morning"]
+    },
+    {
+      "name": "Intro to Python Workshop",
+      "host": "Computer Science Society",
+      "location": "Tech Lab 204",
+      "date": "2025-11-17",
+      "time": "2:00 PM",
+      "description": "Learn to code your first project with hands-on guidance from peers.",
+      "tags": ["Technology", "Workshop", "Academic", "Small", "Afternoon"]
+    },
+    {
+      "name": "Women in Tech Networking Mixer",
+      "host": "Women in STEM Club",
+      "location": "Innovation Hall Lobby",
+      "date": "2025-11-18",
+      "time": "6:00 PM",
+      "description": "Connect with peers and professionals in STEM fields over refreshments.",
+      "tags": ["Technology", "Career", "Social", "Medium", "Evening"]
+    },
+    {
+      "name": "AI for Good Hackathon",
+      "host": "Tech for Humanity",
+      "location": "Innovation Hub",
+      "date": "2025-11-22",
+      "time": "9:00 AM",
+      "description": "24-hour challenge to design tech solutions for community impact.",
+      "tags": ["Technology", "Volunteering", "Large", "Weekend"]
+    },
+    {
+      "name": "Sunrise Yoga on the Quad",
+      "host": "Wellness Club",
+      "location": "Campus Quad",
+      "date": "2025-11-20",
+      "time": "7:00 AM",
+      "description": "Start your day with mindfulness and movement in the fresh morning air.",
+      "tags": ["Sports & Fitness", "Wellness", "Small", "Morning"]
+    },
+    {
+      "name": "Campus Fun Run 5K",
+      "host": "Athletics Department",
+      "location": "Student Center Start Line",
+      "date": "2025-11-23",
+      "time": "9:00 AM",
+      "description": "Join students and staff for a scenic charity run across campus.",
+      "tags": ["Sports & Fitness", "Volunteering", "Large", "Weekend"]
+    },
+    {
+      "name": "Community Garden Clean-Up",
+      "host": "Green Campus Initiative",
+      "location": "Campus Garden",
+      "date": "2025-11-19",
+      "time": "9:30 AM",
+      "description": "Help maintain the campus garden and promote sustainability.",
+      "tags": ["Sustainability & Environment", "Volunteering", "Small", "Morning"]
+    },
+    {
+      "name": "Letters of Hope",
+      "host": "Service Club",
+      "location": "Student Union Room 103",
+      "date": "2025-11-21",
+      "time": "3:00 PM",
+      "description": "Write encouraging letters to hospitalized children to brighten their day.",
+      "tags": ["Volunteering & Service", "Social", "Small", "Afternoon"]
+    },
+    {
+      "name": "Resume Review & Coffee Chat",
+      "host": "Career Center",
+      "location": "Library Conference Room",
+      "date": "2025-11-19",
+      "time": "1:00 PM",
+      "description": "Meet recruiters and get feedback on your resume while enjoying free coffee.",
+      "tags": ["Career & Professional Development", "Networking", "Medium", "Afternoon"]
+    },
+    {
+      "name": "Startup Pitch Night",
+      "host": "Entrepreneurship Club",
+      "location": "Business Hall Auditorium",
+      "date": "2025-11-22",
+      "time": "5:30 PM",
+      "description": "Watch student entrepreneurs pitch their startups to local investors.",
+      "tags": ["Career & Professional Development", "Technology", "Large", "Evening"]
+    },
+    {
+      "name": "Exam Prep Study Marathon",
+      "host": "Student Success Center",
+      "location": "Library Basement",
+      "date": "2025-11-20",
+      "time": "5:00 PM",
+      "description": "Collaborative study session with free snacks, coffee, and peer tutoring.",
+      "tags": ["Academics & Study Groups", "Social", "Large", "Evening"]
+    },
+    {
+      "name": "Research 101: Getting Started in Labs",
+      "host": "Undergraduate Research Office",
+      "location": "Science Hall 102",
+      "date": "2025-11-18",
+      "time": "4:00 PM",
+      "description": "Learn how to find and apply for undergraduate research opportunities.",
+      "tags": ["Academics & Study Groups", "Career", "Workshop", "Afternoon"]
+    },
+    {
+      "name": "Interfaith Dialogue Dinner",
+      "host": "Faith & Community Coalition",
+      "location": "Campus Dining Hall",
+      "date": "2025-11-21",
+      "time": "6:30 PM",
+      "description": "Explore shared values across different faiths over dinner and discussion.",
+      "tags": ["Faith & Community", "Social", "Medium", "Evening"]
+    },
+    {
+      "name": "Boba & Board Games Night",
+      "host": "Student Activities Council",
+      "location": "Student Center Lounge",
+      "date": "2025-11-19",
+      "time": "8:00 PM",
+      "description": "Relax, play games, and meet new friends at this casual hangout event.",
+      "tags": ["Social & Hangout Events", "Casual", "Medium", "Evening"]
     }
   ]
   
