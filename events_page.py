@@ -20,16 +20,10 @@ def events_page():
 
             # Optional: Save & Add to Calendar
             st.button("❤️ Save", key=event["name"])
-            cal_url = f"https://calendar.google.com/calendar/render?action=TEMPLATE&text={event['name']}&details={event['description']}&location={event['location']}"
+            cal_url = ("https://calendar.google.com/calendar/render?action=TEMPLATE"
+    f"&text={urllib.parse.quote(event['name'])}"
+    f"&details={urllib.parse.quote(event['description'])}"
+    f"&location={urllib.parse.quote(event['location'])}")
 
-            st.markdown(f""" <a href="{cal_url}" target="_blank" style="
-            display: inline-block;
-            background-color: #4CAF50;
-            color: white;
-            padding: 8px 16px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;">
-            📅 Add to Calendar
-            </a> """, unsafe_allow_html=True)
+            if st.button("📅 Add to Calendar"):
+                webbrowser.open_new_tab(cal_url)
