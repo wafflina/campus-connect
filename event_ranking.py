@@ -2,8 +2,8 @@ import json
 
 def rank_events(user_prefs, events):
     weights = {
-        "interests": 0.5,
-        "event_types": 0.5,
+        "interests": 0.6,
+        "event_types": 0.3,
         "availability": 0.3,
         "planning": 0.2,
         "mode": 0.15,
