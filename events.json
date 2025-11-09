@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Tech Innovators Workshop",
+      "tags": ["Technology & STEM", "Workshops", "In-person", "Small groups", "Evening"],
+      "host": "CS Club",
+      "location": "Innovation Lab",
+      "date": "2025-11-15",
+      "time": "6:00 PM",
+      "description": "Hands-on session exploring AI and IoT projects."
+    },
+    {
+      "name": "Campus Sustainability Fair",
+      "tags": ["Sustainability & Environment", "Volunteering & Service", "Large gatherings", "Weekend", "In-person"],
+      "host": "Green Club",
+      "location": "Main Quad",
+      "date": "2025-11-16",
+      "time": "2:00 PM",
+      "description": "Discover eco-friendly initiatives and clubs on campus."
+    },
+    {
+        "name": "SBU Hacks",
+        "tags": ["Technology & STEM", "Career & Professional Development", "Workshops", "Networking", "Weekend", "Morning", "Afternoon", "Evening", "In-person", "Large gatherings"],
+        "host": "Computing Society at Stony Brook",
+        "location": "Melville Library",
+        "date": "2025-11-8",
+        "time": "12:00 AM",
+        "description": "have fun hacking."
+    }
+  ]
+  
