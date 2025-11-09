@@ -21,5 +21,15 @@ def events_page():
             # Optional: Save & Add to Calendar
             st.button("❤️ Save", key=event["name"])
             cal_url = f"https://calendar.google.com/calendar/render?action=TEMPLATE&text={event['name']}&details={event['description']}&location={event['location']}"
-            st.markdown(f"[📅 Add to Calendar]({cal_url})", unsafe_allow_html=True)
 
+            st.markdown(f""" <a href="{cal_url}" target="_blank" style="
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;">
+            📅 Add to Calendar
+            </a> """, unsafe_allow_html=True)
